@@ -1,5 +1,5 @@
 {include file='header.tpl'}
-{if $config['appName'] == 'ÅÜÂ·'}
+{if $config['appName'] == 'è·‘è·¯'}
 <script>window.location.href='{$config["baseUrl"]}/paolu.html';</script>
 {/if}
 
@@ -28,7 +28,7 @@
 								<div class="card">
 									<div class="card-main">
 										<div class="card-inner">
-											<p>Ö÷ÈË~ Äú»ØÀ´À²£¡</p>
+											<p>ä¸»äºº~ æ‚¨å›æ¥å•¦ï¼</p>
 										</div>
 									</div>
 								</div>
@@ -38,14 +38,14 @@
 								<div class="card">
 									<div class="card-main">
 										<div class="card-inner">
-											<p class="card-heading">¿ì¿´¿ì¿´£¬Ö÷ÈËµÄĞÅÏ¢³öÏÖÔÚÏÂÃæÄØ~</p>
-                                            <p>ÓÃ»§£º<code>{$user->user_name}</code>
-                                               µÈ¼¶£º{if $user->class!=0}<code>VIP{$user->class}</code>{else}<code>Ãâ·Ñ</code>{/if}
-                                              ¹ıÆÚÊ±¼ä£º{if $user->class_expire!="1989-06-04 00:05:00"}<code>{$user->class_expire}</code>{else}<code>²»¹ıÆÚ</code>{/if}
+											<p class="card-heading">å¿«çœ‹å¿«çœ‹ï¼Œä¸»äººçš„ä¿¡æ¯å‡ºç°åœ¨ä¸‹é¢å‘¢~</p>
+                                            <p>ç”¨æˆ·ï¼š<code>{$user->user_name}</code>
+                                               ç­‰çº§ï¼š{if $user->class!=0}<code>VIP{$user->class}</code>{else}<code>å…è´¹</code>{/if}
+                                              è¿‡æœŸæ—¶é—´ï¼š{if $user->class_expire!="1989-06-04 00:05:00"}<code>{$user->class_expire}</code>{else}<code>ä¸è¿‡æœŸ</code>{/if}
                                             </p>
-                                            <p>×ÜÁ÷Á¿£º<code>{$user->enableTraffic()}</code>
-                                               ÒÑÓÃÁ÷Á¿£º<code>{$user->usedTraffic()}</code>
-                                               Ê£ÓàÁ÷Á¿£º<code>{$user->unusedTraffic()}</code>
+                                            <p>æ€»æµé‡ï¼š<code>{$user->enableTraffic()}</code>
+                                               å·²ç”¨æµé‡ï¼š<code>{$user->usedTraffic()}</code>
+                                               å‰©ä½™æµé‡ï¼š<code>{$user->unusedTraffic()}</code>
                                             </p>
 										</div>
 									</div>
@@ -56,8 +56,8 @@
 								<div class="card">
 									<div class="card-main">
 										<div class="card-inner">
-											<p class="card-heading">ÓÃ»§Ãæ°å</p>
-												<a class="btn btn-flat waves-attach waves-light waves-effect" href="/user"><span class="icon">pregnant_woman</span>&nbsp;Ö÷ÈË¿ÉÒÔÃşÕâÀï½øÈëÃæ°å</a>
+											<p class="card-heading">ç”¨æˆ·é¢æ¿</p>
+												<a class="btn btn-flat waves-attach waves-light waves-effect" href="/user"><span class="icon">pregnant_woman</span>&nbsp;ä¸»äººå¯ä»¥æ‘¸è¿™é‡Œè¿›å…¥é¢æ¿</a>
 										</div>
 									</div>
 								</div>
@@ -67,7 +67,7 @@
 								<div class="card">
 									<div class="card-main">
 										<div class="card-inner">
-											<p>¿Í¹Ù~ ÄúºÃ°¡£¡</p>
+											<p>å®¢å®˜~ æ‚¨å¥½å•Šï¼</p>
 										</div>
 									</div>
 								</div>
@@ -78,8 +78,8 @@
 								<div class="card">
 									<div class="card-main">
 										<div class="card-inner">
-											<p class="card-heading">×¢²á</p>
-												<a class="btn btn-flat waves-attach waves-light waves-effect" href="/auth/register"><span class="icon">pregnant_woman</span>&nbsp;Èç¹û¿Í¹ÙÄúÃ»ÓĞÕËºÅµÄ»°£¬¾ÍÃşÎÒÕâÀïÀ´×¢²á°É¡£</a>
+											<p class="card-heading">æˆ‘è¦æ³¨å†Œ</p>
+												<a class="btn btn-flat waves-attach waves-light waves-effect" href="/auth/register"><span class="icon">pregnant_woman</span>&nbsp;å®¢å®˜å¯ä»¥ç‚¹è¿™é‡Œæ³¨å†Œå§ã€‚</a>
 										</div>
 									</div>
 								</div>
@@ -89,8 +89,8 @@
 								<div class="card">
 									<div class="card-main">
 										<div class="card-inner">
-											<p class="card-heading">µÇÂ¼</p>
-												<a class="btn btn-flat waves-attach waves-light waves-effect" href="/auth/login"><span class="icon">vpn_key</span>&nbsp;Èç¹û¿Í¹ÙÄúÓĞÕËºÅµÄ»°£¬¾ÍÃşÎÒÕâÀïÀ´µÇÂ¼°É¡£</a>
+											<p class="card-heading">æˆ‘è¦ç™»å½•</p>
+												<a class="btn btn-flat waves-attach waves-light waves-effect" href="/auth/login"><span class="icon">vpn_key</span>&nbsp;å®¢å®˜å¯ä»¥ç‚¹è¿™é‡Œç™»å½•å§ã€‚</a>
 										</div>
 									</div>
 								</div>
